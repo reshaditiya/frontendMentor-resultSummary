@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: URL('/assets/font/HankenGrotesk-HankenGrotesk-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+* {
+  font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif !important;
+}
+
+#result-summary-card {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.txt-score {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.txt-score-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.txt-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.txt-title-sm {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.txt-body-sm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: #303b59;
+}
+
+.gray {
+  color: #9793a1;
+}
+
+.pink-gray {
+  color: #e2d6ff;
+}
+
+.red {
+  color: #ff5555;
+}
+
+.green {
+  color: #00bb8f;
+}
+
+.bg-red {
+  background-color: #fff6f5;
+}
+
+.bg-yellow {
+  background-color: #fffbf2;
+}
+
+.bg-green {
+  background-color: #f2fbfa;
+}
+
+.bg-blue {
+  background-color: #f3f3fd;
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(180deg, #6743fd 0%, #312ce9 100%);
+}
+
+#section-result {
+  padding: 42px 56px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+#result-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#score-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+#score-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #4d22cb 0%, rgba(74, 38, 208, 0) 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+}
+
+#section-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 40px 0px 40px;
+}
+
+#summary-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#summary-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.summary-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 16px 106px;
+  background-color: #303b59;
+  color: white;
+  border-radius: 999px;
+}
