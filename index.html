@@ -1,76 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div id="result-summary-card">
-      <section id="section-result" class="bg-purple-gradient">
-        <header class="txt-title pink-gray">Your Result</header>
-        <div id="result-score">
-          <div id="score-circle">
-            <span class="txt-score">76</span>
-            <span class="txt-body pink-gray">of 100</span>
-          </div>
-          <div id="score-detail">
-            <span class="txt-score-title pink-gray">Great</span>
-            <p class="txt-body pink-gray">
-              You scored higher than 65% of the people who have taken these
-              tests.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="section-summary">
-        <div id="summary-detail">
-          <header class="txt-title black">Summary</header>
-          <div id="summary-detail-list">
-            <div class="summary-list-item txt-body">
-              <div>
-                <img src="/assets/images/icon-reaction.svg" />
-                <span>Reaction</span>
-              </div>
-              <div>
-                <span>80</span>
-                <span>/</span>
-                <span>100</span>
-              </div>
-            </div>
-            <div class="summary-list-item txt-body">
-              <span>Memory</span>
-              <div>
-                <span>92</span>
-                <span>/</span>
-                <span>100</span>
-              </div>
-            </div>
-            <div class="summary-list-item">
-              <span>Verbal</span>
-              <div>
-                <span>61</span>
-                <span>/</span>
-                <span>100</span>
-              </div>
-            </div>
-            <div class="summary-list-item">
-              <span>Visual</span>
-              <div>
-                <span>72</span>
-                <span>/</span>
-                <span>100</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="white">Continue</button>
-      </section>
-    </div>
-  </body>
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div id="result-summary-card">
+			<section id="section-result" class="bg-purple-gradient">
+				<header class="txt-title pink-gray">Your Result</header>
+				<div id="result-score">
+					<div id="score-circle">
+						<span class="txt-score">76</span>
+						<span class="pink-gray">of 100</span>
+					</div>
+					<div id="score-detail">
+						<span class="txt-score-title pink-gray">Great</span>
+						<p class="pink-gray center">
+							You scored higher than 65% of the people who have
+							taken these tests.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="section-summary">
+				<div id="summary-detail">
+					<header class="txt-title black">Summary</header>
+					<div id="summary-detail-list">
+						<div class="summary-item bg-red">
+							<div class="summary-item-label">
+								<img
+									src="/assets/images/icon-reaction.svg"
+									alt=""
+								/>
+								<span class="red">Reaction</span>
+							</div>
+							<div class="summary-item-score">
+								<span>80</span>
+								<span class="gray">/</span>
+								<span class="gray">100</span>
+							</div>
+						</div>
+						<div class="summary-item bg-yellow">
+							<div class="summary-item-label">
+								<img
+									src="assets/images/icon-memory.svg"
+									alt=""
+								/>
+								<span class="yellow">Memory</span>
+							</div>
+							<div class="summary-item-score">
+								<span>92</span>
+								<span class="gray">/</span>
+								<span class="gray">100</span>
+							</div>
+						</div>
+						<div class="summary-item bg-green">
+							<div class="summary-item-label">
+								<img
+									src="assets/images/icon-verbal.svg"
+									alt=""
+								/>
+								<span class="green">Verbal</span>
+							</div>
+							<div class="summary-item-score">
+								<span>61</span>
+								<span class="gray">/</span>
+								<span class="gray">100</span>
+							</div>
+						</div>
+						<div class="summary-item bg-blue">
+							<div class="summary-item-label">
+								<img
+									src="assets/images/icon-visual.svg"
+									alt=""
+								/>
+								<span class="blue">Visual</span>
+							</div>
+							<div class="summary-item-score">
+								<span>72</span>
+								<span class="gray">/</span>
+								<span class="gray">100</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="white">Continue</button>
+			</section>
+		</div>
+	</body>
 </html>
