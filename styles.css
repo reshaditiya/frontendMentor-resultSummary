@@ -147,12 +147,9 @@ button:hover {
 	}
 
 	body {
-		/* position: fixed; */
-		/* left: 50%; */
-		/* transform: translate(-50%, 0%); */
-		margin-top: 284px;
-		display: flex;
-		justify-content: center;
+		min-height: 100vh;
+		display: grid;
+		place-items: center;
 	}
 
 	.txt-score {
