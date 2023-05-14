@@ -1,11 +1,10 @@
 @font-face {
-	font-family: "Hanken Grotesk";
-	src: URL("/assets/font/HankenGrotesk-HankenGrotesk-VariableFont_wght.ttf")
-		format("truetype");
+	font-family: hankenGrotesk;
+	src: URL(assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
 }
 
 * {
-	font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif !important;
+	font-family: hankenGrotesk, Arial, Helvetica, sans-serif !important;
 	margin: 0px;
 	padding: 0px;
 }
